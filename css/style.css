@@ -1,5 +1,7 @@
-/* Generics */
-/* ----------------------------------------------------------------- */
+/* Colores
+Principal: 181f2c
+Secundario: ff4745
+----------------------------------------------------------------- */
 * {
     margin: 0;
     padding: 0;
@@ -7,27 +9,25 @@
 
 body {
     background-color: #FFF;
-    color: #777;
-    font-family: Cambria, Verdana, Arial, Helvetica, sans-serif;
+    color: #181f2c;
+    font-family: Helvetica;
     font-size: 12px;
     margin: 0;
     padding: 0;
 }
 
 h1 {
-    font-family: Calibri, Verdana, Arial, Helvetica, sans-serif;
     font-size: 24px;
 }
 
 strong, b, th {
     font-variant: small-caps;
     font-weight: bold;
-    color: #444;
+    color: #181f2c;
 }
 
 .negrita {
-    background-color: #e6eef5;
-    color: #848a90;
+    color: #181f2c;
     padding-left: 10px;
 }
 
@@ -50,11 +50,11 @@ p {
 a {
     outline: none;
     text-decoration: none;
-    color: #7E97AD;
+    color: #181f2c;
 }
 
     a:hover {
-        color: #c8b568;
+        color: #ff4745;
     }
 
 div.wrapper {
@@ -101,8 +101,8 @@ table {
 }
 
 #topbar {
-    margin: 0;
-    background-color: #7E97AD;
+    margin: 30px;
+    background-color: #181f2c;
 }
 
     #topbar .fl_left {
@@ -144,12 +144,12 @@ table {
         }
 
         #topnav li a:hover, #topnav ul li.active a {
-            background-color: #72889B;
+            background-color: #ff4745;
             color: #FFF;
         }
 
         #topnav li li a:link, #topnav li li a:visited {
-            background-color: #333;
+            background-color: #ff4745;
             float: none;
             margin: 0;
             padding: 7px 10px;
@@ -168,7 +168,7 @@ table {
     width: 760px;
     margin: 5px 0 0 0;
     padding: 30px 30px 20px 30px;
-    background-color: #F2F3F4;
+    background-color: #FFF;
 }
 
     #intro .fl_left {
@@ -214,14 +214,6 @@ table {
 }
 
 
-/* Lateral panel */
-/* ----------------------------------------------------------------- */
-.slide-out-div {
-    padding: 0px;
-    width: 160px;
-    border: #7E97AD 1px solid;
-}
-
 /* Timeline */
 /* ----------------------------------------------------------------- */
 #cvtimeline {
@@ -253,7 +245,6 @@ table {
         width: 170px;
         font-variant: small-caps;
         font-weight: bold;
-        color: #444;
     }
 
     #dates a {
@@ -261,10 +252,6 @@ table {
         padding-bottom: 10px;
     }
 
-
-        #dates a.selected {
-            color: #323232;
-        }
 
 #issues {
     height: 350px;
@@ -287,16 +274,13 @@ table {
 
         #issues li h1 {
             margin: 0;
-            font-family: Calibri, Verdana, Arial, Helvetica, sans-serif;
             font-size: 18px;
-            color: #444;
         }
 
         #issues li h2 {
             margin: 0 0 15px;
             font-size: 10px;
             font-style: italic;
-            color: #888;
         }
 
         #issues li p {
